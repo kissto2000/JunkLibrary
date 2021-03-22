@@ -1,7 +1,9 @@
 plugins {
     id 'com.android.library'
     id 'kotlin-android'
+    id 'com.github.dcendents.android-maven'
 }
+group = 'com.github.kissto2000'
 
 android {
     compileSdkVersion 30
@@ -42,9 +44,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     implementation 'com.google.android.gms:play-services-location:18.0.0'
-
     implementation 'gun0912.ted:tedpermission:2.2.2'
 }
-
-apply plugin: 'com.github.dcendents.android-maven'
-group = 'com.github.kissto2000'

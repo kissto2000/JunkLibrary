@@ -3,6 +3,8 @@ package com.starflow.junklibrary.gps
 import android.annotation.SuppressLint
 import android.content.Context
 
+typealias Completion = () -> Unit
+
 open class GpsController {
     val TAG = javaClass.simpleName
 

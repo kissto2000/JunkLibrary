@@ -19,6 +19,7 @@ import com.google.android.gms.location.*
 import com.gun0912.tedpermission.PermissionListener
 import com.gun0912.tedpermission.TedPermission
 
+@Suppress("UNCHECKED_CAST")
 open class GpsBuilder<T : GpsBuilder<T>>(private val context: Context) {
 
     private var isUseFusedLocation = true
