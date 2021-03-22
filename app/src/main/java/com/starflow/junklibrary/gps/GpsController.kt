@@ -3,7 +3,7 @@ package com.starflow.junklibrary.gps
 import android.annotation.SuppressLint
 import android.content.Context
 
-class GpsController {
+open class GpsController {
     val TAG = javaClass.simpleName
 
     companion object {
