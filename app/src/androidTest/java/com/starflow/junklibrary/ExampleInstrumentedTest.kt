@@ -1,4 +1,4 @@
-package com.starflow.junklib
+package com.starflow.junklibrary
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

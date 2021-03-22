@@ -1,4 +1,4 @@
-package com.starflow.junklib.gps
+package com.starflow.junklibrary.gps
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -208,7 +208,7 @@ open class GpsBuilder<T : GpsBuilder<T>>(private val context: Context) {
                     }
                 }
 
-                if (count == gpsCallCount) {
+                if (count >= gpsCallCount) {
                     fusedLocationProviderClient?.removeLocationUpdates(this)
                 }
             }
@@ -238,7 +238,7 @@ open class GpsBuilder<T : GpsBuilder<T>>(private val context: Context) {
                 listener?.onLatLong(latitude, longitude)
             }
 
-            if (count == gpsCallCount) {
+            if (count >= gpsCallCount) {
                 locationManager?.removeUpdates(this)
             }
         }

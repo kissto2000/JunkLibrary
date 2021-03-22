@@ -1,4 +1,4 @@
-package com.starflow.junklib
+package com.starflow.junklibrary
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.starflow.junklib.gps
+package com.starflow.junklibrary.gps
 
 interface OnGpsListener {
     fun onPermissionDenied(deniedPermissions: MutableList<String>?)

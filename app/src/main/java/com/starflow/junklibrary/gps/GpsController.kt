@@ -1,4 +1,4 @@
-package com.starflow.junklib.gps
+package com.starflow.junklibrary.gps
 
 import android.annotation.SuppressLint
 import android.content.Context
